@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Wang | UI/UX Designer & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">Andy Wang</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#extracurriculars">Extracurriculars</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Open mobile menu">☰</button>
+    </nav>
+
+    <div class="mobile-nav">
+        <button class="close-btn" aria-label="Close mobile menu">✕</button>
+        <div class="mobile-nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#extracurriculars">Extracurriculars</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+    <header>
+        <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Andy Wang</h1>
+        <p style="font-size: 1.5rem; opacity: 0.9;">Aspiring Software Engineer & UI/UX Designer </p>
+        <p style="margin-top: 1rem; font-size: 1.1rem; opacity: 0.8;">EECS @ UC Berkeley</p>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="animated">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="andy.jpeg" alt="Andy Wang" style="width: 100%; border-radius: 12px;">
+                </div>
+                <div class="about-text">
+                    <p>Hi! I'm Andy, an aspiring software engineer and UI/UX Designer and with a passion for creating intuitive and engaging digital experiences.</p>
+                    <p style="margin-top: 1rem;">I blend my technical expertise with design thinking to build solutions that are both functional and aesthetically pleasing. My experience spans from software development and AI applications to UI/UX design and market research.</p>
+                    <p style="margin-top: 1rem;">When I'm not coding or designing, you can find me producing music, playing water polo, watching anime, cooking, or exploring the latest fashion trends.</p>
+                    <div class="project-links" style="margin-top: 2rem;">
+                        <a href="mailto:andywa_ng@berkeley.edu" class="project-link">
+                            <i data-feather="mail"></i>
+                            Email Me
+                        </a>
+                        <a href="tel:3462566636" class="project-link secondary-link">
+                            <i data-feather="phone"></i>
+                            (346) 256-6636
+                        </a>
+                        <a href="https://www.linkedin.com/in/andywa-ng" target="_blank" class="project-link secondary-link">
+                            <i data-feather="linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Education Section -->
+        <section id="education" class="animated delay-1">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <h3 class="education-title">University of California, Berkeley</h3>
+                <p class="education-subtitle">Bachelor of Science in Electrical Engineering & Computer Science, Minor in Music</p>
+                <h4 style="margin-top: 1.5rem; color: var(--accent-color);">Relevant Coursework:</h4>
+                <div class="coursework-list">
+                    <span class="coursework-item">Computer Graphics</span>
+                    <span class="coursework-item">Computer Architecture</span>
+                    <span class="coursework-item">Data Structures</span>
+                    <span class="coursework-item">Structure of Computer Programs</span>
+                    <span class="coursework-item">Discrete Math and Probability Theory</span>
+                    <span class="coursework-item">Information Devices and Systems</span>
+                    <span class="coursework-item">Deep Learning for Visual Data</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="animated delay-2">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Showcasing my recent work in design and development</p>
+
+            <!-- Project 1: Microsoft Xbox -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i data-feather="monitor" style="width: 64px; height: 64px; color: var(--primary-color);"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Microsoft Xbox - UI / UX Consultant</h3>
+                    <span class="project-date">Sep - Dec 2024</span>
+                    <p class="project-description">
+                        As a UI/UX consultant, I conducted user research to identify pain points in gaming platforms and translated those insights into interactive Figma prototypes. I then presented the high-fidelity designs and strategic recommendations to Xbox.
+                    </p>
+                    <div class="project-deliverables">
+                        <h4 class="deliverable-title">Technologies Used:</h4>
+                        <p class="deliverable-item">Figma for wireframing and prototyping design iterations</p>
+                        <p class="deliverable-item">Qualtrics for creating surveys and analyzing user data</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.figma.com/proto/45IaZ6RdJfMedCVKfAxTsN/Prototype?node-id=386-757&p=f&t=99Gmttq7HAzHggOR-0&scaling=scale-down&content-scaling=fixed&page-id=211%3A186&starting-point-node-id=386%3A757" class="project-link">View Figma</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Tickerzone -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i data-feather="trending-up" style="width: 64px; height: 64px; color: var(--primary-color);"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tickerzone</h3>
+                    <span class="project-date">Feb 2025 - present</span>
+                    <p class="project-description">
+                        I worked on redesigning the website for Tickerzone, a financial startup specializing in managing investment portfolios. I focused on improving usability and data visualization to create a more engaging and intuitive user experience.
+                    </p>
+                    <div class="project-deliverables">
+                        <h4 class="deliverable-title">Technologies Used:</h4>
+                        <p class="deliverable-item">Figma for UX flows, mockups, and responsive design</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://app.tickerzone.com/" class="project-link">View Website</a>
+                        <a href="#" class="project-link secondary-link">View Figma</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="animated delay-2">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">My professional journey across design and development</p>
+
+            <!-- HP HyperX Experience -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="company-name">HP HyperX</h3>
+                        <h4 class="job-title">Consultant <span class="category-badge other-badge">Consulting</span></h4>
+                    </div>
+                    <span class="job-period">Feb 2025 - present</span>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Assess Gen-Z purchasing behaviors, impact of influencers, and brand perception in the gaming peripherals industry</li>
+                        <li>Present recommendations to enhance HyperX's brand positioning and cultural relevance for Gen-Z consumers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tencent Experience -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="company-name">Tencent</h3>
+                        <h4 class="job-title">Consultant <span class="category-badge other-badge">Consulting</span></h4>
+                    </div>
+                    <span class="job-period">Feb 2025 - present</span>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Source 30 users to collect data on Gen-Z's social views, entertainment preferences, and gaming experiences</li>
+                        <li>Analyze data to provide strategic insights for Tencent's expansion and cultural adaptation in foreign markets</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Anytime AI Experience -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="company-name">Anytime AI</h3>
+                        <h4 class="job-title">Software Engineering Intern <span class="category-badge dev-badge">Development</span></h4>
+                    </div>
+                    <span class="job-period">Jun - Aug 2024</span>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developed an AI-powered application utilizing RAG to streamline legal document analysis for plaintiff lawyers</li>
+                        <li>Integrated LLM APIs and Python libraries into app to extract and process raw data from scanned legal forms</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Mesa Engineering Experience -->
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="company-name">Mesa Engineering</h3>
+                        <h4 class="job-title">Software Engineering Intern <span class="category-badge dev-badge">Development</span></h4>
+                    </div>
+                    <span class="job-period">Jun - Aug 2023</span>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Redesigned an embedded system for traffic cameras to record vehicle violations on the NVIDIA Jetson platform</li>
+                        <li>Implemented a robust video processing pipeline using GStreamer, improving the detection of traffic violations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Extracurriculars Section -->
+        <section id="extracurriculars" class="animated delay-2">
+            <h2 class="section-title">Extracurriculars</h2>
+            <p class="section-subtitle">Organizations and activities I'm involved with</p>
+
+            <!-- Web Development @ Berkeley -->
+            <div class="extracurricular-card">
+                <h3 class="extracurricular-title">Web Development @ Berkeley</h3>
+                <h4 class="extracurricular-role">Industry Designer <span style="font-size: 0.9rem; color: var(--text-muted);">Feb 2025 - present</span></h4>
+                <div class="job-description">
+                    <ul>
+                        <li>Collaborate with different clients on web design and branding projects, including wireframing and UI/UX research</li>
+                        <li>Conduct usability testing, compile insights into data-driven reports, and design marketing and branding materials</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Business Careers in Entertainment Club -->
+            <div class="extracurricular-card">
+                <h3 class="extracurricular-title">Business Careers in Entertainment Club</h3>
+                <h4 class="extracurricular-role">Video Games Committee <span style="font-size: 0.9rem; color: var(--text-muted);">Sep 2024 - present</span></h4>
+                <div class="job-description">
+                    <ul>
+                        <li>Perform market research and data analysis to pinpoint opportunities and formulate strategies for gaming companies</li>
+                        <li>Prototype Figma mockups and provide targeted recommendations to boost platform usability and user engagement</li>
+                    </ul>
+                </div>
+            </div>
+
+        <div class="section-divider"></div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="animated delay-3">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">My technical expertise and professional capabilities</p>
+
+            <div class="skill-category">
+                <h3>Software Development</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Java</span>
+                    <span class="skill-badge">C++</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Swift</span>
+                    <span class="skill-badge">C#</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Design</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">UI/UX Design</span>
+                    <span class="skill-badge">Wireframing</span>
+                    <span class="skill-badge">Prototyping</span>
+                    <span class="skill-badge">User Research</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">HTML/CSS</span>
+                    <span class="skill-badge">Node.js</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>AI/ML Engineering</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">TensorFlow</span>
+                    <span class="skill-badge">PyTorch</span>
+                    <span class="skill-badge">CoreML</span>
+                    <span class="skill-badge">RAG</span>
+                    <span class="skill-badge">LLM APIs</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Other Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">Embedded Systems</span>
+                    <span class="skill-badge">Data Analysis</span>
+                    <span class="skill-badge">Market Research</span>
+                    <span class="skill-badge">Product Management</span>
+                    <span class="skill-badge">Unity</span>
+                    <span class="skill-badge">Blender</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="animated delay-3">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let's connect and work together</p>
+
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i data-feather="mail"></i>
+                    </div>
+                    <h3 class="contact-title">Email</h3>
+                    <p class="contact-info">Feel free to reach out by email for work inquiries or collaboration opportunities.</p>
+                    <a href="mailto:andywa_ng@berkeley.edu" class="contact-link">
+                        andywa_ng@berkeley.edu
+                        <i data-feather="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i data-feather="linkedin"></i>
+                    </div>
+                    <h3 class="contact-title">LinkedIn</h3>
+                    <p class="contact-info">Connect with me on LinkedIn for professional networking and updates.</p>
+                    <a href="https://www.linkedin.com/in/andywa-ng" target="_blank" class="contact-link">
+                        View Profile
+                        <i data-feather="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i data-feather="phone"></i>
+                    </div>
+                    <h3 class="contact-title">Phone</h3>
+                    <p class="contact-info">For urgent matters, feel free to call or text me.</p>
+                    <a href="tel:3462566636" class="contact-link">
+                        (346) 256-6636
+                        <i data-feather="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Andy Wang. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/andywa-ng" target="_blank" class="social-link"><i data-feather="github"></i></a>
+                <a href="https://www.linkedin.com/in/andywa-ng" target="_blank" class="social-link"><i data-feather="linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="social-link"><i data-feather="twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-link"><i data-feather="instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather icons
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+            
+            // Mobile menu functionality
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const closeBtn = document.querySelector('.close-btn');
+            const mobileNav = document.querySelector('.mobile-nav');
+            const overlay = document.querySelector('.overlay');
+            const mobileLinks = document.querySelectorAll('.mobile-nav-links a');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileNav.classList.add('active');
+                overlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+            
+            function closeMenu() {
+                mobileNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+            
+            closeBtn.addEventListener('click', closeMenu);
+            overlay.addEventListener('click', closeMenu);
+            
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', closeMenu);
+            });
+            
+            // Animation on scroll
+            const observerOptions = {
+                threshold: 0.1
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            document.querySelectorAll('.animated').forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
